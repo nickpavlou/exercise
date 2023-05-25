@@ -1,0 +1,44 @@
+#chessboard {
+  width: 20rem; /* 320px */
+  height: 20rem; /* 320px */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 2.5rem; /* 40px */
+  width: 2.5rem; /* 40px */
+  position: relative;
+}
+
+.square svg {
+  height: 1.875rem; /* 30px */
+  width: 1.875rem; /* 30px */
+  padding: 0.3125rem; /* 5px */
+  z-index: -9;
+}
+
+path {
+  position: relative;
+  z-index: -10;
+}
+
+.piece {
+  z-index: 9;
+}
+
+.beige {
+  background-color: #d5bd98;
+}
+
+.brown {
+  background-color: #27593c;
+}
+
+.black {
+  fill: rgb(28, 28, 28);
+}
+
+.white {
+  fill: rgb(255, 255, 255);
+}
